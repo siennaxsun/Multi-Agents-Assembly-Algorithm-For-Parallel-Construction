@@ -45,11 +45,11 @@ Five agents share 3 home bases
 
 ## REPOSITORY STRUCTURE
 
-/GH Script Python/ — Original Python single-agent implementation (thesis, 2023) 
-/GH Script CSharp/ — C# multi-agent reimplementation (2025) 
-[README.md] — This file 
-[architecture.md] — Algorithm design, components, and data flow 
-[comparison.md] — Python vs C# approach: differences and tradeoffs
+1. /GH Script Python/ — Original Python single-agent implementation (thesis, 2023)
+2. /GH Script CSharp/ — C# multi-agent reimplementation (2025)
+3. [README.md] — This file
+4. [architecture.md] — Algorithm design, components, and data flow
+5. [comparison.md] — Python vs C# approach: differences and tradeoffs
 
 
 
@@ -99,7 +99,7 @@ Five agents share 3 home bases
 
 ## Credits
 
-Python assembly algorithm: Chia-yen Wu
-C# reimplementation: Xin Sun
-Thesis Publication:  [From Passive to Active Matter: A novel robot-material system for parallel construction](https://papers.cumincad.org/cgi-bin/works/paper/ecaade2025_449 )
-ABxM framework: https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2994
+1. Python assembly algorithm: Chia-yen Wu
+2. C# reimplementation: Xin Sun
+3. Thesis Publication:  [From Passive to Active Matter: A novel robot-material system for parallel construction](https://papers.cumincad.org/cgi-bin/works/paper/ecaade2025_449 )
+4. ABxM framework: https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2994
