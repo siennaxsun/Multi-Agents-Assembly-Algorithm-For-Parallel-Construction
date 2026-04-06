@@ -62,7 +62,7 @@
 
 The simulation is composed of seven C# script components and one native ABxM component, connected in this data flow:
 
-![[2026-04-06 20_15_12-Grasshopper - My Reimplementation in C _CleanUp_.png]]
+![Uploading Grasshopper Canvas Layout.png…]()
 
 
 
