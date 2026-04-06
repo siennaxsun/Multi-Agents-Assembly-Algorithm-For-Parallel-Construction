@@ -29,16 +29,28 @@ Collective Robotic Construction • Agent-Based Modeling & Simulation • Discre
 ## Demo
 
 Two agents build the structure from two homes in parallel
-![[2 agents 2 homes.mp4]]
+
+
+https://github.com/user-attachments/assets/71545774-7107-423d-be32-a7771086501b
+
+
 
 
 Three agents share one home base - the agent who cannot enter the home stays outside the structure to wait for the home to be cleared
-![[3 agents 1 home.mp4]]
+
+
+https://github.com/user-attachments/assets/b87743ae-eab1-419b-9cd8-e3275fc91fe0
+
+
 
 
 
 Five agents share 3 home bases
-![[5 agents 3 homes.mp4]]
+
+
+https://github.com/user-attachments/assets/089e728f-764d-4c83-9daf-7417d273e65c
+
+
 
 
 
