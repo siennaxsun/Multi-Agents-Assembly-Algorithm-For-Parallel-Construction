@@ -14,7 +14,7 @@ This algorithm has been developed as the part of the efforts for the “Awakened
 
 The thesis research explores how shape-changing materials and mobile robots can collaborate in a co-designed framework to enable efficient, decentralized construction. The project features a modular system of deployable building block and a custom robotic assembler, coordinated through a mesh-based agent system.
 
-The algorithm attempts to achieve multiple mobile robots to assemble a voxelized structure in parallel, each starting from an assigned home base, communicating through a shared environment blackboard to allocate tasks, planning path, avoid collisions, manage home access, and safely remove the temporary support raft once construction is complete.
+The algorithm achieves multiple mobile robots to assemble a voxelized structure in parallel, each starting from an assigned home base, communicating through a shared environment blackboard to allocate tasks, planning path, avoid collisions, manage home access, and safely remove the temporary support raft once construction is complete.
 
 
 
