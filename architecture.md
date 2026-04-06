@@ -5,64 +5,17 @@
 
 
 ## System Architecture
+![Mindmap - Frame 1](https://github.com/user-attachments/assets/f353d158-6dcc-464e-87ef-9071c78211a2)
 
-┌─────────────────────────────────────────────────────────┐
-│                     Grasshopper                          │
-└───────────┬──────────────────────────┬──────────────────┘
-            │                          │
-    ┌───────▼────────┐         ┌──────▼──────────┐
-    │  Environment   │◄────────│  Agent System   │
-    │   Component    │         │                    Component     │
-    └───────┬────────┘         └──────┬──────────┘
-            │                          │
-            │                          │
-    ┌───────▼──────────────────────────▼───────────────┐
-    │         CartesianEnvironment                     │
-    │  (Single Source of Truth - CustomData)           │
-    │                                                   │
-    │  ┌─────────────────────────────────────┐        │
-    │  │ Static State:                        │        │
-    │  │ • PointCloud allCloud                │        │
-    │  │ • Adjacency map                      │        │
-    │  │ • Constraint dictionaries            │        │
-    │  └─────────────────────────────────────┘        │
-    │                                                   │
-    │  ┌─────────────────────────────────────┐        │
-    │  │ Dynamic State:                       │        │
-    │  │ • BuildState[] (per voxel)           │        │
-    │  │ • Deployed indices                   │        │
-    │  │ • Available targets                  │        │
-    │  │ • Targets dictionary                 │        │
-    │  └─────────────────────────────────────┘        │
-    └───────────────────┬────────────────────────────┘
-                        │
-            ┌───────────▼─────────────┐
-            │   ABxM Solver           │
-            │  (Each timestep)        │
-            └───────────┬─────────────┘
-                        │
-            ┌───────────▼─────────────┐
-            │   AssemblyBehavior      │
-            │   Execute()             │
-            └───────────┬─────────────┘
-                        │
-        ┌───────────────┴───────────────┐
-        │                                │
-┌───────▼────────┐            ┌─────────▼──────────┐
-│ Agent Logic    │            │ Environment Update │
-│                │            │                     │
-│ • TaskAssign   │◄──────────►│ • UpdateDependency │
-│ • ExecuteTask  │            │ • UpdateTargets    │
-│ • FollowPath   │            │ • AStarPathFinding │
-└────────────────┘            └────────────────────┘
 
 
 
 ## Grasshopper Canvas Layout
 
 The simulation is composed of seven C# script components and one native ABxM component, connected in this data flow:
+<img width="1919" height="1042" alt="Grasshopper Canvas Layout" src="https://github.com/user-attachments/assets/7223fc44-6b6a-48b2-8f5a-d70d2ee3e936" />
 
-![Uploading Grasshopper Canvas Layout.png…]()
+
 
 
 
