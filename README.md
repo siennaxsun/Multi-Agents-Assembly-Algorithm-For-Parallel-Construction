@@ -10,7 +10,7 @@ This repository contains a multi-agent robotic assembly algorithm implemented in
 This algorithm has been developed as the part of the efforts for the “Awakened Structures" master thesis research:
 
 - the python code was first developed by my teammate during the thesis period, to validate the proof of concept within a limited time frame
-- the C# code was further developed by myself after the thesis, based on the original main logic, to extend from one-agent to multi-agents coordination for parallel construction.
+- the C# code was further developed by myself after the thesis, based on the original main logic, to extend to multi-agents coordination with multiple home bases for parallel construction.
 
 The thesis research explores how shape-changing materials and mobile robots can collaborate in a co-designed framework to enable efficient, decentralized construction. The project features a modular system of deployable building block and a custom robotic assembler, coordinated through a mesh-based agent system.
 
@@ -57,8 +57,8 @@ https://github.com/user-attachments/assets/089e728f-764d-4c83-9daf-7417d273e65c
 
 ## REPOSITORY STRUCTURE
 
-1. /GH Script Python/ — Original Python single-agent implementation (thesis, 2023)
-2. /GH Script CSharp/ — C# multi-agent reimplementation (2025)
+1. /GH Script Python/ — Original Python implementation (thesis, 2023)
+2. /GH Script CSharp/ — C# reimplementation (2025)
 3. [README.md] — This file
 4. [architecture.md] — Algorithm design, components, and data flow
 5. [comparison.md] — Python vs C# approach: differences and tradeoffs
